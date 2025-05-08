@@ -1,3 +1,6 @@
+# Introduction
+I am going through the AI course in [codedex.io](https://codedex.io), all credits to them, this is my personal repo of notes inspired from them
+
 # 01. Tokens
 We know that gen AI involves language models that are trained to create new content such as text, images, videos, etc. But what are these models trained with exactly? Tokens! 🪙
 
