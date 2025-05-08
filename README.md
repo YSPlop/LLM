@@ -67,3 +67,46 @@ train_test_split: This function helps split our dataset into training and testin
 accuracy_score: This function provides a way to measure the accuracy of our model by comparing the predicted labels with the actual labels in the test set. A higher accuracy score indicates better performance, a score of 1.0 = great predictions.
 
 These classes and functions are essential for building a text classification model. Let's dive into the code and see how we can classify text data using a Naive Bayes classifier!
+
+# 04. Machine Translation
+Traveling is awesome, but the language barrier can be intimidating when going to foreign countries. Luckily machine translations make life easier. Let's learn how it works.
+
+<img src="./images/6.png">
+
+Machine translation automatically converts text from one language to another using computer algorithms. Tools like Google Translate use advanced language models to perform this task.
+
+Here's how it generally works:
+
+- Training with Data: Machine translation systems are trained on vast amounts of text in multiple languages. They learn patterns and relationships between words in these languages.
+- Generating Translations: Once trained, the system can translate a sentence from one language to another. Modern systems can effectively understand the context of the words during translation.
+
+<img src="./images/7.png">
+
+One of the libraries that can help us with machine translation is the translate python library. It allows you to translate simple phrases by interacting with machine translation APIs like Google Translate. Let's get started with translating!
+
+# 05. Spelling Bee
+You're almost done!
+
+Now that you can translate, time to check our spelling ✍️. Spelling can be tricky, there's a reason winning the spelling bee is a very prestigious award 🏆. Unlike computers, humans are unable to recall exactly how to spell every word. This is where spell checkers come in handy.
+
+Spell checkers automatically find and correct spelling mistakes in text. They are helpful and ensure that your writing is clear and error-free. It is one of the many implementations of generative ai using machine learning.
+
+<img src="./images/8.gif">
+
+Here's how spell check generally works:
+
+- Dictionary Comparison: The spell checker compares each word against a dictionary of correctly spelled words. If a word isn't found, it's flagged as a potential mistake.
+- Suggesting Corrections: It suggests possible corrections based on common misspellings or similar words.
+
+<img src="./images/9.png">
+
+Does it seem a little difficult? Don't worry, we won't judge your spelling🤞. There's a super helpful library that can help you check.
+
+## TextBlob
+The TextBlob library is a key tool in natural language processing and text analysis. It simplifies text processing, making it easy to work with text data.
+
+Why TextBlob is a vibe:
+
+Easy to Use: TextBlob is straightforward and allows you to perform tasks like sentiment analysis, part-of-speech tagging, and text translation with just a few lines of code.
+Spell Checking and Correction: It includes built-in spell-checking and correction features.
+Text Analysis: You can analyze text to extract useful information like determining its sentiment (positive, negative, or neutral) and summarize text data.
